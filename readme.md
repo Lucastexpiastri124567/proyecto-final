@@ -1,2 +1,5 @@
 ## Esta es la idea de mi proyecto:
 > crear una IA/bot de discord que tenga informacion acerca de la duracion de determinados residuos y como afectan al medio ambiente(ejemplo: plastico:100 y 1000 años en descomponerse, es un contaminante persistente que no se descompone y se acumula en océanos y suelos, dañando a la fauna marina por enredo e ingestión, y afectando la salud humana y la biodiversidad) para demostrar lo que puede ocacionar lo mas minimo y tratar de concientizar al que lo lee, tambien podria contener imagenes que generen impacto en el usuario acerca de las concecuencias de determinado residuo, y datos aleatorios como cuanto se contamina diariamente, cuantos residuos se generan por dia, etc y ofrecer soluciones al usuario, ademas de añadir como extencion un detector de imagenes usando IA que detecte el material que se muestra en una imagen y de informacion al respecto
+## Referencias:
+https://github.com/Lucastexpiastri124567/Discord-bot-food
+https://github.com/Lucastexpiastri124567/Python-pro5/blob/main/bot.py
