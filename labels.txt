@@ -1,0 +1,8 @@
+0 Plasticos
+1 Metales
+2 químicos
+3 Combustibles fósiles
+4 telas
+5 cartón
+6 Vidrio
+7 Papel
