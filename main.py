@@ -77,17 +77,6 @@ async def infografia(ctx):
         print(os.listdir("images"))
     await ctx.send(file=picture)
 
-@bot.command()
-async def check(ctx):
-    if ctx.message.attachments:
-        for attachment in ctx.message.attachments:
-            file_name = attachment.filename
-            file_url = attachment.url
-            await attachment.save(f"./{attachment.filename}")
-            await ctx.send(f"Guarda la imagen en ./{attachment.filename}")
-            await ctx.send(get_class(model_path="keras_model.h5", labels_path="labels.txt", image_path=f"./{attachment.filename}"))
-    else:
-        await ctx.send("Olvidaste subir la imagen :(")    
     
 @bot.command()
 async def consejo(ctx):
@@ -121,6 +110,7 @@ async def trivia(ctx):
         await ctx.send("✅ ¡Correcto! 🎉")
     else:
         await ctx.send(f"❌ Incorrecto. La respuesta correcta era **{pregunta['respuesta']}**.")
+
 
 
 bot.run("")
